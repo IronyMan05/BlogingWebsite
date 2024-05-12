@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Roboto:wght@300&family=Square+Peg&display=swap");
+:root {
+  --main-bg-color: brown;
+  --font1: "Baloo Bhaina 2", cursive;
+  --font2: "Roboto", sans-serif;
+  --font3: "Square Peg", cursive;
+}
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
+.maxwid1 {
+  max-width: 75%;
+}
+.maxwid2 {
+  max-width: 60%;
+}
+.mauto {
+  margin: auto;
+}
+.my2 {
+  margin-top: 2px;
+  margin-bottom: 32px;
+}
+.btn {
+  padding: 0px 15px;
+  padding-top: 3px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-family: var(--font1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.btn:hover {
+  color: white;
+  background-color: green;
+}
+.formin {
+  padding: 0px 5px;
+  padding-top: 3px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin: 13px;
+  font-family: var(--font1);
+}
+.form-box input, textarea {
+  width: 52vw;
+  padding: 0px 6px;
+  margin: 7px 0;
+  font-size: 18px;
+  font-family: var(--font1);
+  border: 2px solid var(--main-bg-color);
+  border-radius: 5px;
+}

@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navigation{
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: var(--font1);
+    height: 100px;
+    /* background-color: red;   */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navleft{
+    font-size: 25px;
+    display: flex;
+}
+.navleft span img{
+    height: 100px;
+    border-radius: 50%;
+
+}
+.navleft ul{
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+}
+.navleft ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+}
+.navleft ul li a:hover{
+    color: red;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.navleft ul li a{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    margin-top: 30px;
+    height: 395px;
+    /* background-color: rgb(136, 136, 193);  */
+    display: flex;
+    padding: 9px;
+    position: relative;
+}
+.content::after{
+    content: "";
+    background-image: url('../img/bg1.jfif');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+}
+.conleft{
+    font-family: var(--font1);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 20px;
+    z-index: 1;
+}
+.conright{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conright img{
+    height: 400px;
+}
+.about{   
+    margin-top: 30px;
+    height: 550px;
+    background-color: rgb(217, 217, 249); 
+    display: flex;
+    padding: 9px;
+    position: relative;
+}
+.personal span a img{
+    height: 25px;  
+    justify-content: right;
+}
+.homearticles{
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    background-color: rgb(218, 226, 249);
+}
+.homearticles h2{
+    padding-left: 10px;
+    font-size: 30px;
+}
+.homearticle{
+    display: flex;
+    margin: 25px;
+}
+.homearticlecon{
+    align-self: center;
+    padding: 25px;
+}
+.homearticlecon a{
+    text-decoration: none;
+    color: black;
+}
+.homearticle img{
+    width: 300px;
+    height: 175px;
+    border-radius: 5px;
+}
+.footer{
+    height: 50px;
+    background-color: rgb(0, 0, 0); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
